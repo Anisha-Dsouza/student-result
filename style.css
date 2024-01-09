@@ -121,7 +121,7 @@ main{
 .l div{
     display: flex;
     justify-content: space-between;
-    gap:50px;
+    gap:760px;
     }
     
     .l input[type="search"]{
@@ -129,19 +129,38 @@ main{
         padding-inline: 10px;
         outline: none;
         border-radius: 5px;
-    }
-    #search{
-        font-style: italic;
-        padding-inline: 10px;
-        outline: none;
-        border-radius: 10px;
+        width:350px;
     }
     .btn1 {
-        background-color: black;
-        color: white;
-        padding: 10px 20px;
-        border-radius: 5px;
+        background-color:rgb(146, 221, 146);
+        color: black;
+        padding: 10px 20px; 
+        border-radius: 15px;
+       left:200px;
         cursor: pointer;
         border: none;
+        border:2px solid rgb(134, 196, 134);
+        box-shadow:2px 1px;
     
+    }
+    .q{
+        margin-top:5px;
+    }
+    .l table{
+        width: 90%;
+        text-align: center;
+        margin-inline: auto;
+        margin-top: 20px;
+    border-radius: 5px;
+        border-collapse: separate;
+        border-spacing: 0px;
+        border: 1px solid gray;
+    }
+    
+    table thead{
+        background-color:rgb(147, 184, 147);
+        border-radius: 5px;
+    }
+    table td,th{
+        padding-block: 5px;
     }
