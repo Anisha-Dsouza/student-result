@@ -163,4 +163,15 @@ main{
     }
     table td,th{
         padding-block: 5px;
+        border:1px solid rgb(127, 161, 127);
+    }
+    a{
+        width: 100%;
+        display: block;
+        height: 100%;
+        text-decoration: none;
+        display: contents;
+    }
+    a:active{
+        color: black;
     }
