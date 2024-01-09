@@ -80,3 +80,38 @@ main{
     border-radius: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
+.t{
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+    
+}
+.n{
+    height:60%;
+    width:98%;
+    /* margin:80px; */
+    margin-right:10px;
+    margin-left: 10px;
+    padding: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:3px;
+    flex-direction: column;
+}
+
+.k{
+    display: flex;
+    justify-content: space-between;
+    margin-left:50px;
+    margin-right:50px;
+    height:30px;
+    width:200px;
+    padding:50px;
+    border-radius:20px;
+    cursor: pointer;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+    box-shadow:1px 4px 4px;
+}
