@@ -115,3 +115,33 @@ main{
     background-color: bisque;
     box-shadow:1px 4px 4px;
 }
+.l{
+    margin-top: 10px;
+}
+.l div{
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+    }
+    
+    .l input[type="search"]{
+        font-style: italic;
+        padding-inline: 10px;
+        outline: none;
+        border-radius: 5px;
+    }
+    #search{
+        font-style: italic;
+        padding-inline: 10px;
+        outline: none;
+        border-radius: 10px;
+    }
+    .btn1 {
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+    
+    }
