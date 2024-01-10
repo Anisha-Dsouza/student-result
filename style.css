@@ -87,7 +87,7 @@ main{
     
 }
 .n{
-    height:70%;
+    height:90%;
     width:98%;
     margin-right:10px;
     margin-left: 10px;
@@ -182,4 +182,8 @@ main{
     }
     .w{
         margin:40px;
+    }
+    .d{
+        display: flex;
+        justify-content: center;
     }
