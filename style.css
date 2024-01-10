@@ -93,11 +93,13 @@ main{
     margin-left: 10px;
     padding: 40px;
     display:flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: start;
     margin-top:3px;
     flex-direction: column;
     border:20px solid grey;
+    background-image:url('https://images.pond5.com/white-seamless-animated-background-loop-072375356_prevstill.jpeg');
+    background-size: cover;
 }
 
 .k{
@@ -129,7 +131,7 @@ main{
         padding-inline: 10px;
         outline: none;
         border-radius: 5px;
-        width:350px;
+        width:400px;
     }
     .btn1 {
         background-color:rgb(146, 221, 146);
@@ -145,6 +147,9 @@ main{
     }
     .q{
         margin-top:5px;
+       background-image:url('https://static.vecteezy.com/system/resources/thumbnails/008/844/645/small/clean-white-hexagon-background-footage-slow-moving-blank-mosaic-chaotic-animation-hi-tech-isometric-view-geometric-hexagonal-backdrop-video.jpg');
+       background-size:cover;
+       height:80%;
     }
     .l table{
         width: 90%;
@@ -163,7 +168,7 @@ main{
     }
     table td,th{
         padding-block: 5px;
-        border:1px solid rgb(127, 161, 127);
+        border:1px solid rgb(15, 19, 15);
     }
     a{
         width: 100%;
@@ -174,4 +179,7 @@ main{
     }
     a:active{
         color: black;
+    }
+    .w{
+        margin:40px;
     }
