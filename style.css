@@ -197,4 +197,8 @@ main{
         display: flex;
         justify-content: center;
     }
+    #f{
+        color:black;
+        right:40px;
+    }
     
