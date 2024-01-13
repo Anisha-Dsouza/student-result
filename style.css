@@ -41,7 +41,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:lavender;
+    background-color:black;
     gap: 28px;
     padding:10PX;
     margin-left:10px;
@@ -52,14 +52,13 @@ main{
      width:500px;
      height:200px;
      background-color:rgb(155, 155, 76);
-    box-shadow: 1px 4px 2px black;
-    border-radius:5px;
+    box-shadow: 1px 1px 1px white;
     overflow: hidden;
 }
 .p h2{
         padding-block:10px;
-        background-color: black;
-        color:white;
+        background-color: white;
+        color:black;
         text-align: center;
 }
 #i{
