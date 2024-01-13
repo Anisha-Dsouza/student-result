@@ -143,20 +143,18 @@ main{
         width:350px;
     }
     .btn1 {
-        background-color:rgb(146, 221, 146);
+        background-color:rgb(187, 200, 187);
         color: black;
         padding: 10px 20px; 
         border-radius: 15px;
        left:200px;
         cursor: pointer;
-        border: none;
-        border:2px solid rgb(134, 196, 134);
-        box-shadow:2px 1px;
+        border:1px solid black;
     
     }
     .q{
         margin-top:5px;
-        background-color:rgb(246, 215, 215);
+        background-color:rgb(246, 247, 199);
        height:80%;
     }
     .l table{
@@ -171,15 +169,17 @@ main{
     }
     
     table thead{
-        background-color:rgb(147, 184, 147);
+        background-color:rgb(159, 157, 162);
         border-radius: 5px;
         align-items: center;
+        margin:20px;
     }
     table td,th{
         padding-block: 5px;
         border:1px solid rgb(15, 19, 15);
       
     }
+
     a{
         width: 100%;
         display: block;
